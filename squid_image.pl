@@ -15,7 +15,7 @@ my $max = 20; #log files with a digit (or no digit)higher than this will be skip
 my $min = 5; #don't show domains with counts fewer than this
 
 
-if (!defined($ARGV[0]) ) {
+if (!defined($ARGV[0]) ) { 
 	print "\nUsage: squid_image.pl /directory/to/logs/ MODE\n\n";
 	print "If 'MODE' has any value, then all log files will be read and lots of memory will be needed\n\n";
 	exit;
